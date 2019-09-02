@@ -1,5 +1,5 @@
 # Simple-Login-Session-PHP-MySQLi
 
-Username | Password
-admin      admin
+Username | Password <br>
+admin      admin <br>
 admin123   admin123
