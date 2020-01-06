@@ -40,7 +40,8 @@ CREATE TABLE `userlog` (
 
 INSERT INTO `userlog` (`id`, `username`, `password`) VALUES
 (1, 'admin', 'admin'),
-(2, 'admin123', 'admin123');
+(2, 'admin123', 'admin123'),
+(3, 'simplelogin', 'simplelogin');
 
 --
 -- Indexes for dumped tables
