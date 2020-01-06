@@ -1,5 +1,5 @@
 <?php 
-include "koneksi.php"; 
+include "config.php"; 
 $username = $_POST['username']; 
 $pass     = $_POST['password']; 
 $login = mysqli_query($config, "SELECT * FROM userlog WHERE Username = '$username' AND password='$pass'"); 
@@ -13,9 +13,9 @@ if ($row['username'] == $username AND $row['password'] == $pass)
 } 
 else 
 { 
-  echo "<center><br><br><br><br><br><br><b>LOGIN GAGAL! </b><br> 
-        Username atau Password Anda tidak benar.<br>"; 
+  echo "<center><br><br><br><br><br><br><b>LOGIN FAILED! </b><br> 
+        Wrong username or password.<br>"; 
   echo "<br>"; 
-  echo "<a href='javascript:history.back()'>ULANGI LAGI</a></center>"; 
+  echo "<a href='javascript:history.back()'>TRY AGAIN</a></center>"; 
 } 
 ?> 

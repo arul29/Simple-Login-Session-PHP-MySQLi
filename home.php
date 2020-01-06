@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<h1><a href="logout.php">Logout</a></h1>
-		
+		Welcome
 		<?php
 		echo $_SESSION['username'];
 		?>
